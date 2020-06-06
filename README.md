@@ -29,7 +29,7 @@ Images from the application are shared below ;
 # Chane Password.
 <a href="https://resimyukle.xyz/i/RTAVV5"><img src="https://i.resimyukle.xyz/RTAVV5.png" /></a>
 
-# TO START PROJECT. FROM BACKEND YOU NEED TO GİVE YOUR MYSQL URL TO CONNECT DATABASE. 
+# TO START PROJECT. FROM BACKEND YOU NEED TO GİVE YOUR MYSQL IN 'application.yaml' URL TO CONNECT DATABASE. 
 # FROM FRONTEND, RUN npm install THEN npm run start.
 
 #T HANK YOU :)
