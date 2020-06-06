@@ -1,0 +1,44 @@
+spring:
+  profiles:
+    active:
+      - dev
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      javax:
+        persistence:
+          validation:
+            mode: none
+  data:
+    web:
+      pageable:
+        default-page-size: 10
+        max-page-size: 100
+
+blog:
+  upload-path : picture-storage
+  email-address : inffffffooooooooooooo@hotmail.com
+  email-password : testEmail.55
+
+---
+spring :
+  profiles : production
+blog :
+  upload-path: storage-production
+  email-address: inffffffooooooooooooo@hotmail.com
+  email-password: testEmail.55
+---
+spring :
+  profiles : dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/blogapp?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: 136567
+    driver-class-name: com.mysql.cj.jdbc.Driver
+blog :
+  upload-path: storage-dev
+  email-address: inffffffooooooooooooo@hotmail.com
+  email-password: testEmail.55

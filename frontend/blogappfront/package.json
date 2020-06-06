@@ -1,0 +1,54 @@
+{
+  "name": "blogappfront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^19.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "alertifyjs": "^1.13.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "i18next": "^19.4.4",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-date-picker": "^8.0.1",
+    "react-datepicker": "^2.16.0",
+    "react-day-picker": "^7.4.8",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.4.0",
+    "react-pose": "^4.0.10",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "secure-ls": "^1.2.6",
+    "timeago.js": "^4.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8080"
+}

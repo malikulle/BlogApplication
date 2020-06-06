@@ -1,0 +1,9 @@
+.alertify-notifier .ajs-message.ajs-error {
+    background: #e67e22;
+}
+.alertify-notifier {
+    color: white;
+}
+.ck.ck-editor__main>.ck-editor__editable {
+    height: 180px;
+}
